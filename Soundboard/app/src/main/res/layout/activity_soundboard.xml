@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SoundboardActivity">
+
+    <ImageButton
+        android:id="@+id/ib_hello_darkness"
+        android:layout_width="@dimen/ib_width"
+        android:layout_height="@dimen/ib_height"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/hello_darkness_my_old_friend"
+        android:layout_marginTop="@dimen/margin_top"
+        android:contentDescription="@string/hello_darkness_my_old_friend_desc"/>
+
+    <ImageButton
+        android:id="@+id/ib_winXp"
+        android:layout_width="@dimen/ib_width"
+        android:layout_height="@dimen/ib_height"
+        app:layout_constraintTop_toBottomOf="@id/ib_hello_darkness"
+        android:layout_marginTop="@dimen/margin_top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/one_eternity_later"
+        android:contentDescription="@string/windows_xp_desc"
+        />
+
+    <ImageButton
+        android:id="@+id/ib_spongebob"
+        android:layout_width="@dimen/ib_width"
+        android:layout_height="@dimen/ib_height"
+        app:layout_constraintTop_toBottomOf="@id/ib_winXp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/margin_top"
+        android:src="@drawable/win_xp"
+        android:contentDescription="@string/spongebob_one_eternity_later_desc"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

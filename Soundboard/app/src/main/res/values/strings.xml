@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Soundboard</string>
+    <string name="hello_darkness_my_old_friend_desc">Hello Darkness My Old Friend</string>
+    <string name="windows_xp_desc">windows xp</string>
+    <string name="spongebob_one_eternity_later_desc">Spongebob-One Eternity Later</string>
+</resources>
